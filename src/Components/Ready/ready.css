@@ -1,0 +1,13 @@
+.Main_imge img{
+    @apply w-[555px] h-[437px]
+}
+.main h1{
+    @apply font-Cormorant text-[60px] text-[#0B0109] w-[360px]
+}
+.button2{
+    @apply font-Inter font-semibold text-[18px] text-[#EF0101]
+    shadow-[0px_1px_2px_0px_#EF0101]
+}
+.contact p{
+    @apply font-Inter font-semibold text-[16px] text-[#0B0109] 
+}

@@ -1,0 +1,23 @@
+.head_text{
+    @apply flex justify-center items-center
+}
+.head_text h1{
+    @apply font-Cormorant text-[60px] text-[#0B0109] w-[480px] text-center 
+}
+.Discover_navbar ul{
+    @apply flex justify-center items-center  gap-20 mt-[20px]
+    mb-[64px]
+}
+.Discover_navbar ul li{
+    @apply font-Inter font-normal text-[18px] text-[#0B0109]
+}
+.Discover_navbar ul li:hover{
+    @apply font-bold line-through decoration-[#EF0101] decoration-2
+}
+.Discover_imges{
+    @apply flex gap-6 mb-[50px]
+}
+.button2{
+    @apply font-Inter font-semibold text-[18px] text-[#EF0101]
+    shadow-[0px_1px_2px_0px_#EF0101]
+}

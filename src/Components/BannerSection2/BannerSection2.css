@@ -1,0 +1,72 @@
+/* .Banner_logo ul li a{
+    @apply h-[300px] w-[300px] inline-block
+} */
+.Main_banner1{
+    @apply flex flex-wrap w-full
+}
+.Banner_logo ul{
+    @apply mt-10 flex justify-center items-center w-full flex-wrap
+}
+/* ----------------------------------- */
+
+.BannerS2_Main_text h1{
+    @apply font-Cormorant text-black text-[58px] w-[385px] 
+    ml-[142px]
+}
+.BannerS2_Main_text p{
+    @apply font-Osworld text-[#0B0109] text-[16px] mt-[12px]  ml-[350px]
+}
+.imge{
+    @apply ml-[142px] mt-[69px] w-[370px] h-[370px]
+}
+.BannerS2_Main_text1 img{
+    @apply w-[570px] h-[450px] mt-11
+}
+.BannerSection{
+    @apply flex mt-[52px] gap-[40px]
+}
+.imges{
+    @apply  absolute top-[307px] left-[500px] w-[160px] h-[160px]
+   cursor-pointer
+}
+.imges:hover{
+    @apply  rotate-[360deg] transition-all duration-1000
+}
+/* ----------------------banner2 contact---------------------- */
+.Banner_Contact_text{
+    @apply flex gap-[30px]
+}
+.first p{
+    @apply font-Cormorant font-bold text-[24px] flex gap-1 ml-[130px]
+}
+.Second p{
+    @apply font-DM font-normal text-[16px] text-[#0B0109] w-[348px]
+}
+.Third p{
+    @apply  font-DM font-normal text-[16px] text-[#0B0109] w-[304px] 
+}
+.button1{
+    @apply font-Inter font-semibold text-[18px] text-[#EF0101]
+    shadow-[0px_1px_2px_0px_#EF0101]
+}
+/* ----------------------------valueable text------------- */
+.Valueable_text{
+    @apply relative mt-[120px] mb-[149px] ml-[280px] flex gap-[40px]
+}
+.main_img img{
+    @apply w-[470px] h-[281px]
+}
+.text h2{
+    @apply font-Cormorant text-[50px] text-[#0B0109] w-[277px] 
+    top-[-8px] left-[-135px] absolute
+}
+.Main_text{
+    @apply mt-[82px]
+}
+.Main_text p{
+    @apply font-DM font-normal text-[20px] text-[#0B0109] flex flex-col  cursor-pointer transition-all duration-300
+    
+}
+.Main_text p:hover{
+    @apply text-[#EF0101]
+}

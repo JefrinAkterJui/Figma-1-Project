@@ -1,0 +1,23 @@
+.Wors_head{
+    @apply ml-[90px] mt-[150px] flex gap-[400px] items-center text-center
+}
+.Wors_head h1{
+    @apply font-Cormorant text-[60px] text-[#0B0109] w-[403px] 
+}
+.button1{
+    @apply font-Inter font-semibold text-[18px] text-[#EF0101]
+    shadow-[0px_1px_2px_0px_#EF0101]
+}
+.Review_img img{
+    @apply w-[300px] h-[350px] ml-[200px] mt-5
+}
+.Review_text p{
+    @apply font-DM text-[16px] text-[#0B0109]
+    w-[326px]
+}
+.Review_text h3{
+    @apply font-Osworld text-[20px] mt-2
+}
+.reviews{
+    @apply flex gap-[60px] 
+}

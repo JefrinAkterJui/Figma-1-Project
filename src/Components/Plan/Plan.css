@@ -1,0 +1,17 @@
+.Plan_M_text{
+    @apply flex justify-center items-center mt-[200px]
+}
+.plan_text{
+    @apply font-Cormorant text-[60px] text-[#0B0109] w-[400px] text-center 
+}
+/* ----------------------------------- */
+.P_text h2{
+    @apply font-Osworld font-medium text-[20px] text-[#0B0109]
+}
+.P_text P{
+    @apply font-DM font-normal text-[18px] text-[#0B0109]
+    w-[448px] mt-[10px]
+}
+.P_rate h2{
+    @apply font-Cormorant font-bold text-[30px] text-[#EF0101]
+}

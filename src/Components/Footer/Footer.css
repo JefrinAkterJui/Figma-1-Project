@@ -1,0 +1,12 @@
+.fotter_text p{
+    @apply font-Inter font-normal text-[16px] text-[#fff] mt-[15px]
+}
+.footer_nav ul li{
+    @apply font-Inter font-normal text-[16px] text-white flex gap-5 duration-300
+}
+.footer_nav ul:hover{
+    @apply text-red-600 
+}
+.footer_nav2 ul li{
+    @apply font-Inter font-normal text-[16px] text-white flex gap-8
+}

@@ -1,0 +1,30 @@
+.banner{
+    @apply bg-Banner-img bg-center bg-cover  h-screen w-full
+}
+.Banner_bottom_text h2{
+    @apply font-Osworld text-[20px] font-semibold
+    text-white 
+}
+.Banner_bottom_text p{
+    @apply font-Inter text-[9px] font-normal text-white
+}
+.banner_main_text h1{
+    @apply font-Cormorant font-semibold text-white text-[50px] w-[526px] ml-[540px] mt-[48px] 
+}
+.banner_main_text p{
+    @apply font-DM font-normal text-[15px] w-[397px] text-[#ffffff6e] mt-[10px] ml-[540px]
+}
+.banner_video {
+    @apply w-[338px] h-[244px] ml-[587px]
+}
+.Vimg img{
+    @apply mt-[-164px] ml-[546px] w-[90px]
+}
+.Bannser_side_nav{
+    @apply w-[90px] h-[200px]
+}
+.Bannser_side_nav ul{
+    @apply text-red-600 font-Cormorant font-medium 
+    text-[16px]
+    flex  rotate-[90deg] gap-6 mt-[161px] ml-[59px]
+}
